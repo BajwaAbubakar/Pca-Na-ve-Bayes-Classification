@@ -1,2 +1,7 @@
-# Pca-Na-ve-Bayes-Classification
-Data classification to predict the defect(fault) on software.
+# Pca and Naive-Bayes-Classification
+Information on the Data:-
+
+Fozziwig's Software Developers have contracted you to explore the possibility of an automated software defect prediction system. They want to know if developing such a system would be cost- effective, based on the predictive accuracy that you can achieve with a sample of their data.
+Static code metrics are measurements of software features. They can be used to quantify various software properties which may potentially relate to defect-proneness, and thus to code quality. Examples of such properties and how they are often measured include: size, via lines of code (LOC) counts; readability, via operand and operator counts (as proposed by [1]); and complexity, via linearly independent path counts (this relates to the control flow graph of a program, and was proposed by [2]).
+The data that you have been given contains the static code metrics for each of the functions which comprise a software system. This system was developed by Fozziwig's Software Developers several years ago. As well as the metrics for each function, it has also been recorded whether or not a fault was experienced in each function. This data came from the software testers who examined the system before it was publicly released.
+You have been given two labelled data files, a training data set (trainingSet.csv) and a testing data set (testingSet.csv). Each data set contains 13 features (each one a software metric). Class labels are shown in the last column of each file: a value of `+1' means `defective' (the software module contained a defect (fault)) while a value of `-1' means `non-defective'. Note that this is clearly a simplification of the real world, as both fault quantity and severity have not been taken into account.
